@@ -21,6 +21,7 @@ class ChatterListViewActivity : AppCompatActivity() {
 
     val TAG : String = "ChatterListViewActivity"
 
+    // why do we have to do this???
     val jitterListView: ListView by lazy { findViewById(R.id.activity_chatter_list_view_listview) }
     val jitterAdapter = JitterAdapter()
 
